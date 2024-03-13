@@ -1,7 +1,7 @@
 package SingletonPattern;
 
 public class Client {
-    public static void main(String[] args) {
+    public static <String> void main(String[] args) {
         /*
         Singleton allows you to create a single instance for that class, this is used mostly where
          different code units are repeatedly creating the same instances which is required
